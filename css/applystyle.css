@@ -33,10 +33,131 @@ h1 {
 }
 
 #cat1 {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid grey;
+	margin-left: 80px;
+	margin-top: 80px;	
+	width: 310px;
+	height: 190px;
+	
+}
 
+#cat1-text {
+	
+	text-align: center;
+	padding-top: 60px;
+	
+
+}
+
+#cat1-text > h3 {
+
+	font-weight: 400;
+	
+}
+
+#cat2 {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid grey;
 	margin-left: 120px;
 	margin-top: 80px;	
-	width: 320px;
-	height: 300px;
+	width: 310px;
+	height: 190px;
 	
+}
+
+#cat2-text {
+	
+	text-align: center;
+	padding-top: 60px;
+	
+
+}
+
+#cat2-text > h3 {
+
+	font-weight: 400;
+	
+}
+
+#cat3 {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid grey;
+	margin-left: 120px;
+	margin-top: 80px;	
+	width: 310px;
+	height: 190px;
+	
+}
+
+#cat3-text {
+	
+	text-align: center;
+	padding-top: 60px;
+	
+
+}
+
+#cat3-text > h3 {
+
+	font-weight: 400;
+	
+}
+
+#cat4 {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid grey;
+	margin-left: 180px;
+	margin-top: 80px;	
+	width: 310px;
+	height: 190px;
+	
+}
+
+#cat4-text {
+	
+	text-align: center;
+	padding-top: 60px;
+	
+
+}
+
+#cat4-text > h3 {
+
+	font-weight: 400;
+	
+}
+
+#cat5 {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid grey;
+	margin-left: 320px;
+	margin-top: 80px;	
+	width: 310px;
+	height: 190px;
+	
+}
+
+#cat5-text {
+	
+	text-align: center;
+	padding-top: 60px;
+	
+
+}
+
+#cat5-text > h3 {
+
+	font-weight: 400;
+	
+}
+
+#row2 {
+	margin: 0px;
+	width: 1280px;
 }
