@@ -1,0 +1,163 @@
+#prof_header {
+	
+	background-color: #f7fafa;
+	background-image: url('./steve.jpg');
+	width: 1280px;
+	height: 100%;
+	border-bottom: 1px solid lightgrey;
+
+}
+
+#prof_headertext > h1 {
+	
+	font-size: 40px;
+	text-align: left;
+	color: grey;
+	padding-top: 350px;
+	padding-left: 80px;
+}
+
+#progress {
+
+	width: 1280px;
+	height: 200px;
+	padding-bottom: 240px;
+
+}
+
+#amount_raised {
+	
+	
+	width: 300px;
+	
+}
+
+#progress > h2 {
+
+	padding-top: 50px;
+	padding-bottom: 35px;
+	text-align: center;
+
+}
+
+#progress_bar {
+	
+	border-right: 2px solid lightgrey;
+	border-left: 2px solid lightgrey;
+	width: 800px;
+	height: 20px;
+	margin: 0 auto;
+	
+}
+
+#progress_color {
+	background-color: #00b998;
+	width: 100%;
+	height: 100%;
+}
+
+
+h1 {
+	font-family: Helvetica Neue;
+	font-weight: normal;
+	font-size: 50px; 
+}
+
+h2 {
+	font-family: Helvetica Neue;
+	font-weight: normal;
+	font-size: 40px; 
+}
+
+#prof_sum {
+	
+	display: inline-block;
+	text-align: center;
+	width: 800px;
+	height: 350px;
+	margin-left: 30px;
+	
+}
+
+#prof_sum > h2 {
+
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 28px;
+
+}
+
+#rewards-column {
+	
+	
+	display: inline-block;
+	width: 480px;
+
+
+}
+
+.item-box {
+	
+	background-color: #f7fafa;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	width: 300px;
+
+	
+}
+
+.item-box > h4 {
+	
+	
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 15px;
+	
+}
+
+#prof_stats {
+
+	font-size: 11px;
+	font-weight: bold;
+		
+}
+
+#prof_stats > h2 {
+
+	font-weight: bolder;
+	
+}
+
+#prof_des > h3 {
+	
+	font-family: Helvetica Neue;
+	font-weight: 200;
+	font-size: 17px;
+	text-align: justify;
+	margin-left: 30px;
+	padding-top: 35px;
+	
+}
+
+#prof_stats > p {
+
+	color: lightgrey;
+
+}
+
+
+text {
+	font-family: Helvetica;
+}
+
+p {
+
+	font-family: Helvetica Neue;
+	font-weight: 200;
+
+}
+
+
+.item-box:hover {
+  background-color: lightblue;
+}
