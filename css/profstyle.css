@@ -10,7 +10,8 @@
 
 #prof_headertext > h1 {
 	
-	font-size: 40px;
+	font-size: 50px;
+	font-weight: 200;
 	text-align: left;
 	color: grey;
 	padding-top: 350px;
@@ -26,8 +27,6 @@
 }
 
 #amount_raised {
-	
-	
 	width: 300px;
 	
 }
