@@ -1,0 +1,39 @@
+* {
+	background: black;
+	color: white;
+}
+
+#gridstuff {
+	margin-left: 80px;
+	padding-bottom: 30px;
+}
+
+#about-us {
+	/**margin-top: 80px;**/
+	border-top: 1px solid lightgrey;
+}
+
+h3 {
+	font-weight: 200;
+	font-size: 20px;
+}
+
+h5 {
+	font-weight: 200;
+	font-size: 15px;
+}
+
+li {
+	padding-bottom: 10px;
+	font-weight: 200;
+}
+
+#categories {
+	border-top: 1px solid lightgrey;
+	margin-left: 80px;
+}
+
+#social {
+	border-top: 1px solid lightgrey;
+	margin-left: 80px;
+}
