@@ -56,3 +56,10 @@
 	float : right;
 	margin-top : 0px;
 }
+
+#search-bar {
+	display : inline-block;
+	height : 15px;
+	width : 250px;
+	border : 1px solid black;
+}
