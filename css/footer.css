@@ -10,7 +10,7 @@
 
 #about-us {
 	/**margin-top: 80px;**/
-	border-top: 1px solid lightgrey;
+	border-top: 0.5px solid lightgrey;
 }
 
 h3 {
@@ -24,16 +24,42 @@ h5 {
 }
 
 li {
+	text-align: center;
 	padding-bottom: 10px;
 	font-weight: 200;
 }
 
 #categories {
-	border-top: 1px solid lightgrey;
+	border-top: 0.5px solid lightgrey;
 	margin-left: 80px;
 }
 
 #social {
-	border-top: 1px solid lightgrey;
+	border-top: 0.5px solid lightgrey;
 	margin-left: 80px;
+}
+
+#mid-border{
+	border-bottom: 1px solid white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#ending {
+	margin-top: 30px;
+	font-family: Helvetica;
+	
+}
+
+#ending > h3 {
+	font-size: 19px;
+}
+
+#end {
+	text-align: center;
+}
+
+#end > p {
+	font-size: 11px;
+	color: lightgrey;
 }
