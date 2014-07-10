@@ -1,7 +1,7 @@
 #prof_header {
 	
 	background-color: #f7fafa;
-	background-image: url('./steve.jpg');
+	background-image: url('../resources/steve.jpg');
 	width: 1280px;
 	height: 100%;
 	border-bottom: 1px solid lightgrey;
