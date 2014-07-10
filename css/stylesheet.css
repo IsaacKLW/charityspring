@@ -33,16 +33,6 @@
 	margin : 0px;
 }
 
-.mLink {
-	font-size : 15px;
-	font-weight : bold;
-	color : gray;
-	line-height : 300%;
-	text-align : center;
-	width : 15%;
-	display : inline-block;
-}
-
 .side-box {
 	width : 425px;
 	height : 180px;
