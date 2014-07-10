@@ -4,11 +4,12 @@
 
 #header {
 	line-height : 50px;
-	font-size : 35px;
+	font-size : 50px;
 	float : center;
 	text-align : center;
 	font-weight : bold;
 	margin : 10px;
+	font-weight : lighter;
 }
 
 form > div {
@@ -16,9 +17,9 @@ form > div {
 }
 
 #main {
-	height : 850px;
-	width : 550px;
-	border-radius : 4.5%;
+	height : 670px;
+	width : 420px;
+	border-radius : 6px;
 	border : 1px solid lightgrey;
 	margin : 0px auto;
 	margin-top : 20px;
@@ -27,5 +28,5 @@ form > div {
 }
 
 body {
-	background-color : #FAFAFA;
+	background-color : #F7F9FF;
 }
