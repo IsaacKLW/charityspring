@@ -5,6 +5,7 @@
 
 #gridstuff {
 	margin-left: 80px;
+	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
@@ -62,4 +63,8 @@ li {
 #end > p {
 	font-size: 11px;
 	color: lightgrey;
+}
+
+li:hover {
+	color: grey;
 }
