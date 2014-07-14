@@ -1,0 +1,31 @@
+* {
+	font-family : Helvetica Neue;
+}
+
+#header {
+	line-height : 50px;
+	font-size : 35px;
+	float : center;
+	text-align : center;
+	font-weight : lighter;
+	margin : 10px;
+}
+
+form > div {
+	margin: 20px;
+}
+
+#main {
+	height : 520px;
+	width : 550px;
+	border-radius : 4.5%;
+	border : 1px solid lightgrey;
+	margin : 0px auto;
+	margin-top : 80px;
+	margin-bottom : 20px;
+	background-color : white;
+}
+
+body {
+	background-color : #FAFAFA;
+}

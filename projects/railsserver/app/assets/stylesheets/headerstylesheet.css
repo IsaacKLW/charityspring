@@ -1,0 +1,9 @@
+.mLink {
+	font-size : 15px;
+	font-weight : bold;
+	color : gray;
+	line-height : 300%;
+	text-align : center;
+	width : 15%;
+	display : inline-block;
+}
