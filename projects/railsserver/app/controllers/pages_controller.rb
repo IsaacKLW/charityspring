@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def apply
+  def category
   end
 end

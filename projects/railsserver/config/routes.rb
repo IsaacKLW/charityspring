@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pages/category'
+
+  get 'pages/support'
+
   get 'pages/apply'
 
   get 'pages/signin'
