@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def category
+  def landing
   end
 end

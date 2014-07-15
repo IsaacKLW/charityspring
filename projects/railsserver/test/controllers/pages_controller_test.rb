@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionController::TestCase
-  test "should get category" do
-    get :category
+  test "should get landing" do
+    get :landing
     assert_response :success
   end
 
