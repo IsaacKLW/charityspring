@@ -71,7 +71,7 @@ li:hover {
 
 /** Discover **/
 
-#header-header {
+#header-discover {
 	font-weight : lighter;
 	font-size : 45px;
 	margin : 0px auto;
@@ -405,7 +405,7 @@ form > div {
 	border : 1px solid lightgrey;
 	margin : 0px auto;
 	margin-top : 80px;
-	margin-bottom : 20px;
+	margin-bottom : 40px;
 	background-color : white;
 }
 
@@ -531,15 +531,7 @@ h1 {
 	
 }
 
-#cat1 {
-	margin-top: 80px;	
-	height: 190px;
-	padding: 0px 20px;
-	
-}
-
 #cat-text {
-	
 	text-align: center;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -553,49 +545,14 @@ h1 {
 	
 }
 
-#cat2 {
-	margin-top: 80px;	
-	height: 190px;
-	padding: 0px 20px;
-	
-}
-
-
-#cat3 {
-	margin-top: 80px;	
-	height: 190px;
-	padding: 0px 20px;
-	
-}
-
-
-
-#cat4 {
-	margin-top: 80px;	
-	height: 190px;
-	padding: 0px 20px;
-	
-}
-
-
-
-#cat5 {
+.cat {
 	margin-top: 80px;	
 	height: 190px;
 	padding: 0px 20px; 
-	
-}
-
-#cat6 {
-	margin-top: 80px;	
-	height: 190px;
-	padding: 0px 20px; 
-	
 }
 
 #cat-footer {
 	text-align: center;
-	
 }
 
 #cat-footer > h2 {
