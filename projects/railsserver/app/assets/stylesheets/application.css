@@ -21,7 +21,7 @@ th { border-bottom: 1px solid #DDD; }
 
 * {
 	font-family : Helvetica Neue;
-	/**border : 1px solid black;**/
+	/**border : 1px solid white;**/
 }
 
 /** category **/
@@ -102,7 +102,8 @@ li:hover {
 	margin-top : 20px;
 }
 
-.row {
+
+.row-discover {
 	border-bottom : 2px solid lightgrey;
 	width : 700px;
 	margin-left : 0px;
