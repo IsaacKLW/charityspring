@@ -220,6 +220,10 @@ li:hover {
 	display : inline-block;
 }
 
+.mLink:hover {
+	background-color : lightgrey;
+}
+
 /** Profile **/
 
 #prof_header {

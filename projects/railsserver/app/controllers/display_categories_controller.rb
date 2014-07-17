@@ -1,0 +1,2 @@
+class DisplayCategoriesController < ApplicationController
+end

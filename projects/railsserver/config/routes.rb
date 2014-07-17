@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'pages/display_categories/:id' => "pages#display_categories"
+
+  resources :categories
+
+  resources :projects
+
   get 'pages/landing'
 
   get 'pages/category'
@@ -15,7 +21,7 @@ Rails.application.routes.draw do
 
   get 'pages/info'
 
-	root :to => redirect('/pages/landing')
+  root :to => redirect('/pages/landing')
   resources :landing
 
   # The priority is based upon order of creation: first created -> highest priority.

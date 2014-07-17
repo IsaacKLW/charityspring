@@ -1,16 +1,9 @@
-<!DOCTYPE HTML>
 
-<html>
-	<head>
-		<!--<script src = "./JSkript/bootstrap.js" type = "text/javascript"> </script>-->
-	</head>
-	
-	<body>
 		<div id = "header-discover">Discover</div>
 		
 		<div id = "main-discover">
-			<div class = "sub-heading">Hot</div>
-			<div class = "row-discover">
+			<div id = "hot" class = "row-discover">
+				<div class = "sub-heading">Hot</div>
 				<div class = "tab-discover">
 					<div class = "frame"></div>
 					<div class = "progress-bar">420%</div>
@@ -31,16 +24,17 @@
 			
 			<div class = "sub-heading">Categories</div>
 			
-			<div class = "row-discover">
-				<div class = "category" style = "margin-left : 30px"></div>
-				<div class = "category"></div>
-				<div class = "category"></div>
-				<div class = "category" style = "margin-left : 30px"></div>
-				<div class = "category"></div>
-				<div class = "category"></div>
+			<div class="row row-discover">
+    			<% @categories.each do |category|%>
+				  <div class="col-md-4">
+				    <div class="category">
+				      <a href = "/display_categories/"`" class = "cat-link"><%= category.name %></a>
+				    </div>
+				  </div>
+				<% end %>
 			</div>
 			
-			<div class = "row-discover">
+			<div id = "hot-tw" class = "row-discover">
 				<div class = "sub-heading">Hot This Week</div>
 				<div class = "row-discover">
 					<div class = "tab-discover">
@@ -61,6 +55,5 @@
 					</div>
 				</div>
 			</div>
+			
 		</div>
-	</body>
-</html>

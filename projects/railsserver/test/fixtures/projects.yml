@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category_id: 1
+  name: MyString
+  progress: 1
+  description: MyText
+  goal: 1
+  header_image: MyString
+
+two:
+  category_id: 1
+  name: MyString
+  progress: 1
+  description: MyText
+  goal: 1
+  header_image: MyString

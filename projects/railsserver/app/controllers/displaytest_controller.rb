@@ -1,0 +1,2 @@
+class DisplaytestController < ApplicationController
+end
