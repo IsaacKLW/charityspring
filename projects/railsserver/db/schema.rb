@@ -31,6 +31,12 @@ ActiveRecord::Schema.define(version: 20140717040641) do
   add_index "admins", ["email"], name: "index_admins_on_email", unique: true
   add_index "admins", ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
 
+  create_table "categories", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "ideas", force: true do |t|
     t.string   "name"
     t.text     "description"
@@ -38,6 +44,19 @@ ActiveRecord::Schema.define(version: 20140717040641) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "projects", force: true do |t|
+    t.integer  "category_id"
+    t.string   "name"
+    t.integer  "progress"
+    t.text     "description"
+    t.integer  "goal"
+    t.string   "header_image"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "projects", ["category_id"], name: "index_projects_on_category_id"
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

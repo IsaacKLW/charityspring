@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @category.name %>
+</p>
+
+<p>
+  <strong>Projects:</strong>
+  <% @projects.each do |project| %>
+	<%= project.name %>
+	<%= project.description %>
+	<%= project.progress %>
+  <% end %>
+</p>

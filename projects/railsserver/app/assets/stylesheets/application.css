@@ -10,7 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require bootstrap 
+ *= require bootstrap
  *= require_self
  */
 
@@ -51,12 +51,12 @@ li:hover {
 
 #side-bar {
 	border-right: 1px solid lightgrey;
-	
+
 }
 
 #selection {
 	padding-left: 40px;
-	margin-left: 100px; 
+	margin-left: 100px;
 	margin: 0px auto;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
@@ -64,10 +64,10 @@ li:hover {
 
 .tab-category {
 	height: 400px;
-	width: 225px; 
+	width: 225px;
 	border : 3px solid #AAAAAA;
 	display: inline-block;
- 	-right: 100px; 
+ 	-right: 100px;
 }
 
 /** Discover **/
@@ -189,7 +189,7 @@ li:hover {
 #ending {
 	margin-top: 30px;
 	font-family: Helvetica;
-	
+
 }
 
 #ending > h3 {
@@ -221,10 +221,14 @@ li:hover {
 	display : inline-block;
 }
 
+.mLink:hover {
+	background-color : lightgrey;
+}
+
 /** Profile **/
 
 #prof_header {
-	
+
 	background-color: #f7fafa;
 	background-image: url('../resources/steve.jpg');
 	width: 1280px;
@@ -234,7 +238,7 @@ li:hover {
 }
 
 #prof_headertext > h1 {
-	
+
 	font-size: 50px;
 	font-weight: 200;
 	text-align: left;
@@ -253,7 +257,7 @@ li:hover {
 
 #amount_raised {
 	width: 300px;
-	
+
 }
 
 #progress > h2 {
@@ -265,13 +269,13 @@ li:hover {
 }
 
 #progress_bar {
-	
+
 	border-right: 2px solid lightgrey;
 	border-left: 2px solid lightgrey;
 	width: 800px;
 	height: 20px;
 	margin: 0 auto;
-	
+
 }
 
 #progress_color {
@@ -284,22 +288,22 @@ li:hover {
 h1 {
 	font-family: Helvetica Neue;
 	font-weight: normal;
-	font-size: 50px; 
+	font-size: 50px;
 }
 
 h2 {
 	font-family: Helvetica Neue;
 	font-weight: normal;
-	font-size: 40px; 
+	font-size: 40px;
 }
 
 #prof_sum {
-	
+
 	display: inline-block;
 	text-align: center;
 	width: 800px;
 	height: 350px;
-	
+
 }
 
 #prof_sum > h2 {
@@ -311,8 +315,8 @@ h2 {
 }
 
 #rewards-column {
-	
-	
+
+
 	display: inline-block;
 	width: 480px;
 
@@ -320,46 +324,46 @@ h2 {
 }
 
 .item-box {
-	
+
 	background-color: #f7fafa;
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 	width: 300px;
 
-	
+
 }
 
 .item-box > h4 {
-	
-	
+
+
 	font-family: Helvetica;
 	font-weight: normal;
 	font-size: 15px;
-	
+
 }
 
 #prof_stats {
 
 	font-size: 11px;
 	font-weight: bold;
-		
+
 }
 
 #prof_stats > h2 {
 
 	font-weight: bolder;
-	
+
 }
 
 #prof_des > h3 {
-	
+
 	font-family: Helvetica Neue;
 	font-weight: 200;
 	font-size: 17px;
 	text-align: justify;
 	margin-left: 30px;
 	padding-top: 35px;
-	
+
 }
 
 #prof_stats > p {
@@ -502,17 +506,17 @@ h1 {
 	font-size: 60px;
 	font-weight: 400;
 
-}	
+}
 
 #category {
 	border-bottom: 2px solid lightgrey;
-}	
+}
 
 #cat-header {
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 50px;
-	
+
 }
 
 #cat-header > h1 {
@@ -520,15 +524,15 @@ h1 {
 }
 
 #category-buttons {
-	
-	margin-left: 120px; 
+
+	margin-left: 120px;
 	margin-top: 50px;
-	
+
 }
 
 #button-row {
 	margin-left: 25px;
-	
+
 }
 
 #cat-text {
@@ -542,13 +546,13 @@ h1 {
 #cat-text > h3 {
 
 	font-weight: 400;
-	
+
 }
 
 .cat {
-	margin-top: 80px;	
+	margin-top: 80px;
 	height: 190px;
-	padding: 0px 20px; 
+	padding: 0px 20px;
 }
 
 #cat-footer {
@@ -572,7 +576,6 @@ h1 {
 #header-landing {
 	width : 100%;
 	height : 50px;
-	/**border : 1px solid black;**/
 }
 
 #popular {
@@ -584,12 +587,12 @@ h1 {
 
 #popular-div {
 	width : 65%;
-	height : 540px;
 	margin-left : 20px;
 	float : left;
 	position : relative;
 }
 
+<<<<<<< HEAD
 #popular-div > div {
 	margin : 0px;
 }
@@ -597,6 +600,14 @@ h1 {
 .side-box {
 	width : 425px;
 	height : 180px;             
+=======
+.popular-box {
+	margin-left : 0px;
+	height : 200px;
+	background-color : red;
+	display : inline-block;
+	border : 1px solid black;
+>>>>>>> b76d20dbd361e1cd14054cd1a752da58cbab07da
 }
 
 #menu-bar {

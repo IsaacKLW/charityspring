@@ -16,11 +16,12 @@
 	<div style = "display : inline-block ; margin : 5px 5px 5px 5px">
 		<i class="glyphicon glyphicon-search"></i>
 	</div>
-	
+
 	<input style = "display : inline-block ; width : 250px" type = "search" class = "form-control" id = "username-input" placeholder = "Search"></input>
 	
 	<a href = "/users/sign_in"><div class = "mLink" style = "float : right ; color : lightblue">Login</div></a>
 	<a href = "/users/sign_up"><div class = "mLink" style = "float : right ; color : lightblue">Sign Up</div></a>
+
 </div>
 
 <div class="container">
@@ -32,7 +33,7 @@
 		 <div id="outline">
 			<div id="gridstuff">
 				<div class="container-fluid">
-					
+
 					<div class="row">
 						<div id="about-us" class="col-md-3">
 							<ul style="list-style-type: none">
@@ -42,19 +43,17 @@
 								<a style = "color : white ; a:hover = color : lightgrey" href = "/pages/support"><li class = "li-footer">Support</li></a>
 							</ul>
 						</div>
-						
+
 						<div id="categories" class="col-md-3">
 							<ul style="list-style-type: none;">
-								<li style="font-weight: bolder; font-size: 17px; padding-bottom: 13px" class = "li-footer">Categories</li>
-								<li class = "li-footer">Education</li>
-								<li class = "li-footer">Environment</li>
-								<li class = "li-footer">Food</li>
-								<li class = "li-footer">Water</li>
-								<li class = "li-footer">Human Rights</li>
-								<li class = "li-footer">Obamacare</li>
+
+							  <li style="font-weight: bolder; font-size: 17px; padding-bottom: 13px" class = "li-footer">Categories</li>
+								<% @categories.each do |category| %>
+                  <p class = "li-footer"><%= category.name %></p>
+								<% end %>
 							</ul>
 						</div>
-						
+
 						<div id="social" class="col-md-3">
 							<ul style="list-style-type: none;">
 								<li style="font-weight: bolder; font-size: 17px; padding-bottom: 13px" class = "li-footer">Our  Networks</li>
@@ -64,25 +63,25 @@
 							</ul>
 						</div>
 					</div>
-					
+
 					<div id="mid-border" class="col-md-11">
 					</div>
-					
+
 					<div id="ending">
 						<div class="row">
 							<div id="end" class="col-md-3 col-md-offset-4">
 								<h3 class = "h3-footer">
 									42labs
 								</h3>
-								
+
 								<p>
 									All rights reserved and stuff.
 								</p>
 							</div>
-							
+
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>

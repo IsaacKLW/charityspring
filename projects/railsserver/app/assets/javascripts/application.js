@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+	$(".cat-link").click(function(){
+		@catDisplayId = 2;
+	});
+});
