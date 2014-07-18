@@ -450,28 +450,26 @@ form > div {
 	border : 1px solid lightgrey;
 	margin-top : 80px;
 	margin-bottom : 20px;
-	margin-left : 100px;
 	background-color : white;
 }
 
 
 #main-support {
-	height : 2000px;
-	width : 900px;
+	height: 2000px;
+	width : 800px;
 	border-radius : 18px;
 	border : 1px solid lightgrey;
 	margin-left : 330px;
-	margin-top : -308px;
-	margin-bottom : 20px;
+	margin-top : -350px;
+	margin-bottom : 50px;
 	background-color : white;
 }
 
 #sidetwo {
-	height : 800px;
 	width : 300px;
 	border-radius : 18px;
 	border : 1px solid lightgrey;
-	margin-top : -1295px;
+	margin-top : -1400px;
 	margin-bottom : 20px;
 	margin-left : -362px;
 	background-color : white;

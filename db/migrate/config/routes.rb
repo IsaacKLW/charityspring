@@ -1,31 +1,4 @@
 Rails.application.routes.draw do
-  get 'pages/display_categories/:id' => "pages#display_categories", as: :display_category
-
-  resources :categories
-
-  resources :projects
-  devise_for :admins
-  devise_for :users
-
-  get 'pages/landing'
-
-  get 'pages/category'
-
-  get 'pages/support'
-
-  get 'pages/apply'
-
-  get 'pages/signin'
-
-  get 'pages/signup'
-
-  get 'pages/discover'
-
-  get 'pages/info'
-
-  root :to => redirect('/pages/landing')
-  resources :landing
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
