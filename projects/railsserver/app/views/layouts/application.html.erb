@@ -12,13 +12,13 @@
 	<a href = "/pages/landing"><div id = "home" class = "mLink">Home</div></a>
 	<a href = "/pages/discover"><div id = "discover" class = "mLink">Discover</div></a>
 	<a href = "/pages/apply"><div id = "apply" class = "mLink">Apply</div></a>
-	
+
 	<div style = "display : inline-block ; margin : 5px 5px 5px 5px">
 		<i class="glyphicon glyphicon-search"></i>
 	</div>
 
 	<input style = "display : inline-block ; width : 250px" type = "search" class = "form-control" id = "username-input" placeholder = "Search"></input>
-	
+
 	<a href = "/users/sign_in"><div class = "mLink" style = "float : right ; color : lightblue">Login</div></a>
 	<a href = "/users/sign_up"><div class = "mLink" style = "float : right ; color : lightblue">Sign Up</div></a>
 
@@ -49,7 +49,7 @@
 
 							  <li style="font-weight: bolder; font-size: 17px; padding-bottom: 13px" class = "li-footer">Categories</li>
 								<% @categories.each do |category| %>
-                  <p class = "li-footer"><%= category.name %></p>
+                  <p class = "li-footer"><%= link_to category.name, display_category_path(id: category.id) %></p>
 								<% end %>
 							</ul>
 						</div>
