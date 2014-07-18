@@ -4,22 +4,15 @@
 		<div id = "main-discover">
 			<div id = "hot" class = "row-discover">
 				<div class = "sub-heading">Hot</div>
-				<div class = "tab-discover">
-					<div class = "frame"></div>
-					<div class = "progress-bar">420%</div>
-				</div>
-				<div class = "tab-discover">
-					<div class = "frame"></div>
-					<div class = "progress-bar">420%</div>
-				</div>
-				<div class = "tab-discover">
-					<div class = "frame"></div>
-					<div class = "progress-bar">420%</div>
-				</div>
-				<div class = "tab-discover">
-					<div class = "frame"></div>
-					<div class = "progress-bar">420%</div>
-				</div>
+				<% @projects.each do |project|%>
+					<div class = "tab-discover">
+						<div class = "frame">
+							Name : <%= project.name %>
+							Description : <%= project.description %>
+						</div>
+						<div class = "progress-bar"><%= project.progress %></div>
+					</div>
+				<% end %>
 			</div>
 			
 			<div class = "sub-heading">Categories</div>
@@ -28,7 +21,8 @@
     			<% @categories.each do |category|%>
 				  <div class="col-md-4">
 				    <div class="category">
-				      <a href = "/display_categories/"`" class = "cat-link"><%= category.name %></a>
+				      <%= link_to category.name, display_category_path(id: category.id) %>
+				      <!--<%= link_to category.name, "/pages/display_categories/#{category.id}" %>-->
 				    </div>
 				  </div>
 				<% end %>

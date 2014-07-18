@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/display_categories/:id' => "pages#display_categories"
+  get 'pages/display_categories/:id' => "pages#display_categories", as: :display_category
 
   resources :categories
 
