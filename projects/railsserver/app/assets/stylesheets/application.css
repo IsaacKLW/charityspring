@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
 /** General **/
 table, td, th { vertical-align: middle; border: none; }
 
@@ -595,7 +596,7 @@ h1 {
 
 .side-box {
 	width : 425px;
-	height : 180px;
+	height : 180px;             
 }
 
 #menu-bar {
@@ -616,4 +617,28 @@ h1 {
 
 .input-landing {
 	width : 370px;
+}
+
+/* comment 2cr3w3[) me ovr :( */
+
+#signup {
+	line-height: 20px;
+	font-family: Helvetica Neue;
+	font-style: 200;
+	float: center;
+	margin: 0px auto;
+	padding-top: 50px;
+	
+	 
+}
+
+#main-signup {
+	height : 100%;
+	width : 330px;
+	border-radius : 3.5%;
+	border : 1px solid lightgrey;
+	margin : 0px auto;
+	margin-top : 70px;
+	margin-bottom : 90px;
+	background-color : white;
 }
