@@ -401,7 +401,10 @@ p {
 }
 
 form > div {
-	margin: 20px;
+	width: 50%;
+	margin: 0px auto;
+	text-align: center;
+
 }
 
 #main-sign {
